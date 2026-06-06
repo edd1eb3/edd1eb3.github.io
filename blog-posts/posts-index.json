@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "date": "2026-06-04",
+      "time": "16:37",
+      "title": "my first blog post!",
+      "contentFile": "post_1.txt"
+    },
+    {
+      "id": 2,
+      "date": "2026-06-04",
+      "time": "17:01",
+      "title": "my objective for this website",
+      "contentFile": "post_2.txt",
+      "images": [
+        {
+          "src": "images/Screenshot 2026-06-04 155524.png",
+          "alt": "Homepage skeleton screenshot",
+          "caption": "Initial skeleton"
+        },
+        {
+          "src": "images/Screenshot 2026-06-04 163817.png",
+          "alt": "Homepage skeleton screenshot",
+          "caption": "Initial skeleton"
+        },
+        {
+          "src": "images/Screenshot 2026-06-04 175912.png",
+          "alt": "Homepage skeleton screenshot",
+          "caption": "Initial skeleton"
+        },
+        {
+          "src": "images/Screenshot 2026-06-04 175937.png",
+          "alt": "Homepage skeleton screenshot",
+          "caption": "Initial skeleton"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2026-06-07",
+      "time": "14:30",
+      "title": "my new post",
+      "contentFile": "post_3.txt"
+    }
+  ]
+}

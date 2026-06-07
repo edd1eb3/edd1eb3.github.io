@@ -7,6 +7,8 @@ well, to begin with, hasn't every computer enthusiast always dreamt of his/her o
 
 right now, there is a bare bones skeleton of the website, boring white background with generic black text, and it is under construction. it is a work in progress and i will worry about making it 'aesthetic' and pretty it up later as i go on haha
 
+[IMAGE:0] [IMAGE:1] [IMAGE:2] [IMAGE:3]
+
 now, to get into my thoughts on the development process of this website. there are two trains of thought about software design: top-down-design or bottom-up-design. going top-down, like the waterfall method, would mean i need to think of very specific details before i even begin. while i do have specific goals i wanna achieve with this website, i'm gonna be making this as i go, so i think it'd be more conducive to use an iterative, cyclical approach, like the spiral method.
 
 currently, i just have the homepage and the blog page. eventually i wanna add links to games, a page for a collection of my favorite photos i've taken to share with people, and just small projects that interest me. i will blog every major update as i go, beginning with these screenshots of the initial website skeleton.

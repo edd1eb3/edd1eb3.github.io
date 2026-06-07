@@ -38,10 +38,42 @@
     },
     {
       "id": 3,
-      "date": "2026-06-06",
+      "date": "2026-06-07",
       "time": "14:30",
-      "title": "my new post",
-      "contentFile": "post_3.txt"
+      "title": "setting the foundation",
+      "contentFile": "post_3.txt",
+      "images": [
+        {
+          "src": "images/Screenshot 2026-06-06 214127.png",
+          "alt": "Before",
+          "caption": "Before"
+        },
+        {
+          "src": "images/Screenshot 2026-06-06 214610.png",
+          "alt": "updating using vs code terminal",
+          "caption": "updating using vs code terminal"
+        },
+        {
+          "src": "images/Screenshot 2026-06-06 214718.png",
+          "alt": "Description of third image",
+          "caption": "Third image caption"
+        },
+        {
+          "src": "images/Screenshot 2026-06-06 224239.png",
+          "alt": "Description of fourth image",
+          "caption": "Fourth image caption"
+        },
+        {
+          "src": "images/Screenshot 2026-06-06 224259.png",
+          "alt": "After",
+          "caption": "After"
+        },
+        {
+          "src": "images/Screenshot 2026-06-06 222040.png",
+          "alt": "apps used",
+          "caption": "apps used"
+        }
+      ]
     }
   ]
 }

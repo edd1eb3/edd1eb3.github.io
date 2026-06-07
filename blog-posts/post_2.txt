@@ -11,4 +11,4 @@ now, to get into my thoughts on the development process of this website. there a
 
 currently, i just have the homepage and the blog page. eventually i wanna add links to games, a page for a collection of my favorite photos i've taken to share with people, and just small projects that interest me. i will blog every major update as i go, beginning with these screenshots of the initial website skeleton.
 
-using Angular and ASP.Net within Visual Studio Code IDE
+using Angular and  within VS Code IDE

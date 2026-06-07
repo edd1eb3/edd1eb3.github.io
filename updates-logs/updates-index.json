@@ -3,16 +3,9 @@
     {
       "id": 1,
       "date": "2026-06-04",
-      "time": "16:37",
-      "title": "my first blog post!",
-      "contentFile": "post_1.txt"
-    },
-    {
-      "id": 2,
-      "date": "2026-06-04",
       "time": "17:01",
       "title": "my objective for this website",
-      "contentFile": "post_2.txt",
+      "contentFile": "update_2.txt",
       "images": [
         {
           "src": "images/Screenshot 2026-06-04 155524.png",
@@ -37,11 +30,11 @@
       ]
     },
     {
-      "id": 3,
+      "id": 2,
       "date": "2026-06-07",
       "time": "14:30",
       "title": "setting the foundation",
-      "contentFile": "post_3.txt",
+      "contentFile": "update_3.txt",
       "images": [
         {
           "src": "images/Screenshot 2026-06-06 214127.png",
@@ -74,13 +67,6 @@
           "caption": "apps used"
         }
       ]
-    },
-    {
-      "id": 4,
-      "date": "2026-06-07",
-      "time": "14:57",
-      "title": "website updates now annotated in website logs page",
-      "contentFile": "post_4.txt"
     }
-  ] 
+  ]
 }

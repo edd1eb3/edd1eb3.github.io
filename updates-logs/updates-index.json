@@ -67,6 +67,20 @@
           "caption": "apps used"
         }
       ]
+    },
+    {
+      "id": 3,
+      "date": "2026-06-07",
+      "time": "15:21",
+      "title": "updates to navigation within website",
+      "contentFile": "update_4.txt",
+      "images": [
+        {
+          "src": "images/Screenshot 2026-06-07 154052.png",
+          "alt": "Added 'hamburger' nav top left",
+          "caption": "Added 'hamburger' nav top left"
+        }
+      ]
     }
   ]
 }

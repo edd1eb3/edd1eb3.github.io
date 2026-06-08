@@ -81,6 +81,30 @@
       "time": "14:57",
       "title": "website updates now annotated in website logs page",
       "contentFile": "post_4.txt"
+    },
+    {
+      "id": 5,
+      "date": "2026-06-08",
+      "time": "10:00",
+      "title": "how pokemon has recharged my enthusiasm\nfor programming again",
+      "contentFile": "post_5.txt",
+      "images": [
+        {
+          "src": "images/post5_images/Pokémon Yellow Special Pikachu Edition-5-5-2026 (1).png"
+        },
+        {
+          "src": "images/post5_images/Screenshot 2026-06-05 112922.png"
+        },
+        {
+          "src": "images/post5_images/Pokémon Yellow Special Pikachu Edition-5-5-2026 (3).png"
+        },
+        {
+          "src": "images/post5_images/Pokémon Yellow Special Pikachu Edition-5-5-2026 (1).webm"
+        }, 
+        {
+          "src": "images/post5_images/motorola_green.jpg"
+        }
+      ]
     }
-  ] 
+  ]
 }

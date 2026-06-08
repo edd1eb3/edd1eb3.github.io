@@ -1,0 +1,58 @@
+
+[IMAGE:0] [IMAGE:1]
+
+like i previously mentioned, i decided to make this website to simply give myself a project on which to work in order to practice my programming
+skills. i haven't really used html, css, ts in a while (and even when i did, it was mostly trivial stuff just to learn/apply it way long ago
+anyway, so who cares?) but i am now getting a certain groove back again; some things came back quickly, others took me a few times to remember. 
+
+i thought, "ok, /p> tags for paragraphs, /h1> /h2> for headers...
+yeah, yeah, yeah i remember...wait, is h1 or h2 the main header and which is the sub header?
+what's the difference between /article> and /section> again?"
+
+and then there were times when i had to put a pause on programming because i had to think about how i envisioned certain pages to look like
+before i could even program it.
+
+and so, i played pokemon so i wasn't just staring at vs code like a statue in my chair, pondering, like the lincoln memorial
+
+and i haven't played that in decaaaaades since i was a kid, but i guess i was in a nostalgic mood because doing this website also made me think
+about the first time i "programmed" when i was a kid. and i put quotes and say that loosely because it wasn't real programming, in my opinion.
+it was basically just copying and pasting into my myspace some html or css i found from someone else who actually knew how to program and
+had put it online. all i did was switch "black" to "blue" or something. or i'd notice that if i increased a number, it would thicken a border.
+i didn't understand any of it, but i could obviously read the colors among the random hieroglyphs of code and could verify it was changing
+each time i refreshed the page.
+
+i won't delve too much into it, but this explains how myspace was structured that allowed people to do that if you're interested:
+(https://www.codecademy.com/resources/blog/myspace-and-the-coding-legacy)
+
+basically, all you need to know is this quote from it:
+"However, while rewriting MySpace, Harriman and Nguyen made a major mistake—they failed to block users
+from adding their own HTML and CSS to their profile pages. In Angwin’s telling, the team’s mistake was
+what “allowed users to build colorful backgrounds and wallpaper and load them onto their MySpace pages."
+
+
+some people would say, "well, that's how developers are nowadays with their ai assistance, prompt engineering, and 'vibe coding' anyway, right?
+some people don't know what they're doing or seeing, and are just copying and pasting," but that's a whole other blog topic for another day haha
+i can tell you, as a millennial, though, that i have a certain view on this because i remember copying, pasting code samples from e-textbooks
+on kindle into my ide when first learning, then discovering stackoverflow and would copy, paste fixes people posted there, and to now the
+age of programming where ai assistance is ubiquitous. but, that's a topic for another post.
+(btw, the very first programming book i bought years, years ago and to which I still refer today is Problem Solving in C++ by Walter Savitch
+on kindle and highly recommend it)
+
+[IMAGE:2] [IMAGE:3]
+
+but back to pokemon. i was playing and thinking about how i wanted my website to look and i remembered playing pokemon as a kid on my
+gameboy color. it's funny to think how big of a deal it was to market it as the one with fancy color at the time, or how my cingular cellphone had an
+orange background instead of that generic green that was on every phone. and now to how gaming, mobile phones, etc have evolved. it's funny
+to see these relatively simpler graphics on gameboy (i'm actually using an emulator now, though) when nowadays we're accustomed to like HD.
+no wait, i mean Full HD. actually, Ultra HD. nope, it's 8K Ultra HD now, i think? you get my point. it's interesting to see how technology
+improves and develops over time.
+
+[IMAGE:4] [IMAGE:6]
+
+and that is why i am keeping a log of all my updates; i wanna look back, myself, so i can appreciate how this website evolves, but i also
+wanna show beginners the process (or at least my process) of developing the website over time. you can see how plain and boring my initial
+few pages looked like and then i began adding more components. it's not looking like i want it to yet, but it's a work in progress and
+will eventually. things aren't as simple as prompting ai with one magical sentence and then clicking run, deploy, or whatever and
+then it somehow mysteriously works.
+
+

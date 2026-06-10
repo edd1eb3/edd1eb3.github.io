@@ -1,0 +1,10 @@
+{
+  "tags": [
+    {
+      "slug": "blog",
+      "name": "blog",
+      "color": "#ff6f00",
+      "description": "blog posts"
+    }
+  ]
+}

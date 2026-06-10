@@ -5,7 +5,8 @@
       "date": "2026-06-04",
       "time": "16:37",
       "title": "my first blog post!",
-      "contentFile": "post_1.txt"
+      "contentFile": "post_1.txt",
+      "tags": [ "blog" ]
     },
     {
       "id": 2,
@@ -13,6 +14,7 @@
       "time": "17:01",
       "title": "my objective for this website",
       "contentFile": "post_2.txt",
+      "tags": [ "blog" ],
       "images": [
         {
           "src": "images/Screenshot 2026-06-04 155524.png",
@@ -42,6 +44,7 @@
       "time": "14:30",
       "title": "setting the foundation",
       "contentFile": "post_3.txt",
+      "tags": [ "blog" ],
       "images": [
         {
           "src": "images/Screenshot 2026-06-06 214127.png",
@@ -80,7 +83,8 @@
       "date": "2026-06-07",
       "time": "14:57",
       "title": "website updates now annotated in website logs page",
-      "contentFile": "post_4.txt"
+      "contentFile": "post_4.txt",
+      "tags": [ "blog" ]
     },
     {
       "id": 5,
@@ -88,6 +92,7 @@
       "time": "10:00",
       "title": "how pokemon has recharged my enthusiasm\nfor programming again",
       "contentFile": "post_5.txt",
+      "tags": [ "blog" ],
       "images": [
         {
           "src": "images/post5_images/Pokémon Yellow Special Pikachu Edition-5-5-2026 (1).png"
@@ -100,7 +105,7 @@
         },
         {
           "src": "images/post5_images/Pokémon Yellow Special Pikachu Edition-5-5-2026 (1).webm"
-        }, 
+        },
         {
           "src": "images/post5_images/motorola_green.jpg"
         }

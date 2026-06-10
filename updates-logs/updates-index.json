@@ -81,6 +81,36 @@
           "caption": "Added 'hamburger' nav top left"
         }
       ]
+    },
+    {
+      "id": 5,
+      "date": "2026-06-10",
+      "time": "02:33",
+      "title": "updated homepage and added tags",
+      "contentFile": "update_5.txt",
+      "images": [
+        {
+          "src": "images/update5_images/Screenshot 2026-06-10 022410.png",
+          "alt": "added more to the homepage",
+          "caption": "aded more to the homepage"
+        },
+        {
+          "src": "images/update5_images/Screenshot 2026-06-10 022542.png",
+          "alt": "added new feature: tags",
+          "caption": "added new feature: tags"
+        },
+        {
+          "src": "images/update5_images/Screenshot 2026-06-10 032346.png",
+          "alt": "unsaved, with *",
+          "caption": "unsaved, with *"
+        },
+        {
+          "src": "images/update5_images/Screenshot 2026-06-10 032408.png",
+          "alt": "saved",
+          "caption": "saved"
+        }
+
+      ]
     }
   ]
 }

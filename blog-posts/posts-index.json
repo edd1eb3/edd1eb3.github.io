@@ -110,6 +110,22 @@
           "src": "images/post5_images/motorola_green.jpg"
         }
       ]
+    },
+    {
+      "id": 6,
+      "date": "2026-06-10",
+      "time": "23:33",
+      "title": "the mystery of machine learning",
+      "contentFile": "post_6.txt",
+      "tags": [ "blog" ],
+      "images": [
+        {
+          "src": "images/post6_images/ml_snippet.png"
+        },
+        {
+          "src": "images/post6_images/summation.png"
+        }
+      ]
     }
   ]
 }

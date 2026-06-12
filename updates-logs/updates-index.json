@@ -111,6 +111,25 @@
         }
 
       ]
-    }
+    },
+      {
+        "id": 6,
+        "date": "2026-06-10",
+        "time": "18:47",
+        "title": "added a new games section",
+        "contentFile": "update_6.txt",
+        "images": [
+          {
+            "src": "images/update6_images/games_update.png",
+            "alt": "added a games page",
+            "caption": "added a games page"
+          },
+          {
+            "src": "images/update6_images/number_guessing_game.png",
+            "alt": "added a new game",
+            "caption": "added a new game"
+          }
+        ]
+      }
   ]
 }

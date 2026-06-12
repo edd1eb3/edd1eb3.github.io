@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "tips & tricks to share after one week of developing the website",
+      "date": "2026-06-12",
+      "time": "16:52",
+      "contentFile": "tip_1.txt",
+      "images": [
+        {
+          "src": "images/tips_tricks_images/Screenshot 2026-06-10 032346.png",
+          "alt": "unsaved with *",
+          "caption": "unsaved with *"
+        },
+        {
+          "src": "images/tips_tricks_images/Screenshot 2026-06-10 032408.png",
+          "alt": "saved",
+          "caption": "saved"
+        },
+        {
+          "src": "images/tips_tricks_images/vscode_tip.mp4"
+        },
+        {
+          "src": "images/tips_tricks_images/directory_image.png"
+        },
+        {
+          "src": "images/tips_tricks_images/program_tips_ts.png"
+        },
+        {
+          "src": "images/tips_tricks_images/program_tips_ts2.png"
+        },
+        {
+          "src": "images/tips_tricks_images/gingerbread_cookies.jpg"
+        }
+
+
+      ],
+      "tags": [ "tips" ]
+    }
+  ]
+}

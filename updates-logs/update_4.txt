@@ -1,32 +1,40 @@
-i will now update the progression of the website here
+I will now update the progression of the website here
 
-what i added:
-- an about me page
-- this page here for update logs
-- navigation and routing for different pages
-  (the "hamburger" menu top left: home, blog, updates, about me)
-- a "sort by" button for ascending or descending display
+What I added:
 
-since i got it live and have a basic css styles theme, it's no longer
-as plain and boring. probably will change the theme later as i go on, but it looks ok for now
+An About Me page
 
-my workflow:
-- create a new content/ component to add
-  (right now i have mainly been blogging so i'll use a .txt for example)
-- update the json file to add the new content. something like this:
+This page here for update logs
+
+Navigation and routing for different pages
+(The "hamburger" menu top left: Home, Blog, Updates, About Me)
+
+A "Sort By" button for ascending or descending display
+
+Since I got it live and have a basic CSS styles theme, it's no longer
+as plain and boring. Probably will change the theme later as I go on, but it looks OK for now.
+
+My workflow:
+
+- Create a new content/component to add
+(Right now I have mainly been blogging so I'll use a .txt for example)
+
+- Update the JSON file to add the new content. Something like this:
 
 [CODE]
 {
-      "id": x,
-      "date": "xxxx-xx-xx",
-      "time": "xx:xx",
-      "title": "xxxxxxxxxxxxxxxx",
-      "contentFile": "xxx.txt"
+"id": x,
+"date": "xxxx-xx-xx",
+"time": "xx:xx",
+"title": "xxxxxxxxxxxxxxxx",
+"contentFile": "xxx.txt"
 }
 [/CODE]
 
-- update the .ts typescript files
-- update the html files
-- finally, update the .css files to make it look prettier =D
+- Update the .ts TypeScript files
+
+- Update the HTML files
+
+- Finally, update the .css files to make it look prettier =D
 
 [IMAGE:0]

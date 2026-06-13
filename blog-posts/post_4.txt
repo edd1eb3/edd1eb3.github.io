@@ -1,4 +1,4 @@
-i started organizing my website updates separately
-go to <a href="/updates" style="color: var(--orange, #ff6f00);
+I started organizing my website updates separately.
+Go to <a href="/updates" style="color: var(--orange, #ff6f00);
 text-decoration: underline;">Website Updates Logs</a>
 to see update logs about the website's tranformation over time

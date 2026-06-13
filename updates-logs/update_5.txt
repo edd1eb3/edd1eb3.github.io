@@ -1,31 +1,30 @@
-my homepage was pretty plain so i decided to add highlights of my most recent posts.
-you can now be up to date with my most current blog posts and web updates.
+My homepage was pretty plain so I decided to add highlights of my most recent posts.
+You can now be up to date with my most current blog posts and web updates.
 
-i also added tags to my blog posts (like twitter tags, not html tags). i have them as buttons, but they have no functionality for now.
-the plan is to make a separate page with a drawer layout that is scrollable. or maybe have a grid layout. idk, i haven't decided yet,
-but i figured i start "tagging" my posts for organization in the long-term.
+I also added tags to my blog posts (like Twitter tags, not HTML tags). I have them as buttons, but they have no functionality for now.
+The plan is to make a separate page with a drawer layout that is scrollable. Or maybe have a grid layout. Idk, I haven't decided yet,
+but I figured I'd start "tagging" my posts for organization in the long-term.
 
 [IMAGE:0]
 [IMAGE:1]
 
-tips and tricks for beginners that i used that even more experienced developers sometimes overlook:
+Tips and tricks for beginners that I used that even more experienced developers sometimes overlook:
 
-- did you know that in vs code, there will be an asterix (*) next to the file name if you have edited it, but have not yet saved it?
-  i can't tell you how many times i edited something and then was was frustrated there were no changes only to realize i had not saved
-  the files
+- Did you know that in VS Code, there will be an asterisk (*) next to the file name if you have edited it, but have not yet saved it?
+I can't tell you how many times I edited something and then was frustrated there were no changes only to realize I had not saved
+the files.
 
-  [IMAGE:2]
-  [IMAGE:3]
+[IMAGE:2]
+[IMAGE:3]
 
-- you may wanna test your website locally before committing and pushing and are wondering how to see a "test" version.
-  when you run "ng serve" in the terminal, it will give you a local host link (your ip that you may typed over and over and still forget haha)
-  something like http:// localhost:xxxxx that you can copy, paste into your browser
-  ng serve is the command to run your angular project locally and see the changes you make in real time.
-  it will automatically refresh the page as you save your files, so you can see the updates immediately.
-  i have it split screen and click ctrl+s to save and can see it update on the local host in the browser
+- You may wanna test your website locally before committing and pushing and are wondering how to see a "test" version.
+When you run "ng serve" in the terminal, it will give you a local host link (your IP that you may type over and over and still forget haha)
+something like http:// localhost:xxxxx that you can copy, paste into your browser.
+Ng serve is the command to run your Angular project locally and see the changes you make in real time.
+It will automatically refresh the page as you save your files, so you can see the updates immediately.
+I have it split screen and click Ctrl+S to save and can see it update on the local host in the browser.
 
-- use sub-directories. my view is if you have something that is a collection of at least two, then i'd create a sub-directory.
-  i'll give an example. are you one of those people who just saves all your .txt, .docx in your /Documents/ and then each time
-  you're looking for that one doc you're scrolling until you find it? it's the same when you're setting up your files and
-  directories for your projects
-
+- Use sub-directories. My view is if you have something that is a collection of at least two, then I'd create a sub-directory.
+I'll give an example. Are you one of those people who just saves all your .txt, .docx in your /Documents/ and then each time
+you're looking for that one doc you're scrolling until you find it? It's the same when you're setting up your files and
+directories for your projects.

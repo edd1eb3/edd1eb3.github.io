@@ -1,38 +1,37 @@
+This is not a super in depth explanation of AI, ML, LLMs, etc but is rather a quick
+kinda breakdown to de-mystify some of the misconceptions of machine learning.
 
-this is not a super in depth explanation of ai, ml, llms, etc but is rather a quick
-kinda breakdown to de-mystify some of the misconceptions of maching learning.
-
-what even is intelligence? can intelligence be artificial? can machines "learn?"
-large language models can "think" and they "think" in terms of language? what??
-i'm not here to philosophize and answer those questions, but i will say that when you
+What even is intelligence? Can intelligence be artificial? Can machines "learn?"
+Large language models can "think" and they "think" in terms of language? What??
+I'm not here to philosophize and answer those questions, but I will say that when you
 really break it down, it's all basically just traditional statistics and mathematics.
 
-the image below is a snippet from one of my ml courses. you don't necassarily need to
+The image below is a snippet from one of my ML courses. You don't necessarily need to
 understand the mathematics, the context, or use-case to get my point that a lotta the
-mystery of machine learning disappears when you can answer the question, "how did the
+mystery of machine learning disappears when you can answer the question, "How did the
 model get this solution?" and then realize that the model predicts outcomes in a very
 similar way to how we would, except on a greater scale, and much more quickly.
 
 [IMAGE:0]
 
-think of it like this, if i were to tell you that there are 5 marbles in a bag, 4 being
+Think of it like this, if I were to tell you that there are 5 marbles in a bag, 4 being
 red and 1 being blue, and you had to predict the color of a randomly chosen marble,
-you'd say red, right? i'm oversimplifying, but you can see how these models calculate
+you'd say red, right? I'm oversimplifying, but you can see how these models calculate
 more complicated probabilities than just 4/5 vs 1/5 similarly to us.
 
-ml models do not really calculate much that we, humans, cannot calculate manually;
-however, the main difference is the scale and especially the speed. if i asked you
-what's 1 + 2, you can easily answer that quickly. if i asked you, though, what's the
+ML models do not really calculate much that we, humans, cannot calculate manually;
+however, the main difference is the scale and especially the speed. If I asked you
+what's 1 + 2, you can easily answer that quickly. If I asked you, though, what's the
 sum of the range of integers from 1 to 10, it may take you a little bit longer, but you
-can still do it in a reasonable time. but imagine if you had a calculator and didn't
-have to do all that tedious addition? does knowing that 1 + 2 + 3 = 6 and that
-1 + 2 + 3 + 4 = 10 really make a difference (conceptually)? not really. and imagine
-how tedious it would be to write out the sum of 1 - 100 or even 1 - 1,000 in a notebook?
-or, let's say, even if you had a calculator, how long would it take to punch in allll
+can still do it in a reasonable time. But imagine if you had a calculator and didn't
+have to do all that tedious addition? Does knowing that 1 + 2 + 3 = 6 and that
+1 + 2 + 3 + 4 = 10 really make a difference (conceptually)? Not really. And imagine
+how tedious it would be to write out the sum of 1–100 or even 1–1,000 in a notebook?
+Or, let's say, even if you had a calculator, how long would it take to punch in allll
 those numbers?
 
-now imagine that you can just punch in a few clicks on your keyboard and get an (almost)
-instantaneous answer with a click of a button? a little something like
+Now imagine that you can just punch in a few clicks on your keyboard and get an (almost)
+instantaneous answer with a click of a button? A little something like
 
 [CODE]
 
@@ -40,31 +39,30 @@ for (int i = 1; i <= 10; i++) { sum += i; }
 
 [/CODE]
 
-mathematically, we'd write it like this:
+Mathematically, we'd write it like this:
 
 [IMAGE:1]
 
-but at the end of the day it's just a summation. could we do these sums, theoretically?
-yes, but it would take us forever. we understand the two images above are the same,
+But at the end of the day it's just a summation. Could we do these sums, theoretically?
+Yes, but it would take us forever. We understand the two images above are the same,
 conceptually, and that both give the same result.
 
-the german mathematician Ludolph van Ceulen apparently devoted 25 years of his life to
-calculating the value of pi to 35 decimal places by 1596. you can read more about it:
+The German mathematician Ludolph van Ceulen apparently devoted 25 years of his life to
+calculating the value of pi to 35 decimal places by 1596. You can read more about it:
 (https://en.wikipedia.org/wiki/Ludolph_van_Ceulen)
-but imagine his awe of seeing ai today, yet also the frustration he would surely
-feel that 25 years of work can be achieved in fractions of a second! or how ancient
+But imagine his awe of seeing AI today, yet also the frustration he would surely
+feel that 25 years of work can be achieved in fractions of a second! Or how ancient
 civilizations who only merely had abacuses (https://en.wikipedia.org/wiki/Abacus)
-would react to seeing calculators. this would seem like magic to them, very mysterious.
-but only because they cannot comprehend how the model comes to that solution so quickly.
+would react to seeing calculators. This would seem like magic to them, very mysterious.
+But only because they cannot comprehend how the model comes to that solution so quickly.
 
-and that is no different to how many regard technology today. but when you really
+And that is no different to how many regard technology today. But when you really
 break it down, it's simply just traditional statistics and mathematics, which is not
-as mysterious. maybe more tedious, but not as mysterious.
+as mysterious. Maybe more tedious, but not as mysterious.
 
-you can check out what i mean in my new game i added.
+You can check out what I mean in my new game I added.
 <a href="/games" style="color: var(--orange, #ff6f00);
 text-decoration: underline;">games page</a>
-it may seem mysterious to some, but it's just applied statistics which allows me to
-correctly guess the solution. no ai or machine learning, and just a simple set of
+It may seem mysterious to some, but it's just applied statistics which allows me to
+correctly guess the solution. No AI or machine learning, and just a simple set of
 calculated guesses.
-

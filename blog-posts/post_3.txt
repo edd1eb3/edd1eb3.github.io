@@ -1,47 +1,30 @@
-the website is officially live! still pretty bare bones for now, but it's live!
+The website is officially live! Still pretty bare bones for now, but it's live!
 
-n.b. i wanna maintain an informal blog that can be understood by beginners and more experienced
-computer enthusiasts and even just those with no experience who are curious.
-it may sound pedantic at times to those more experienced and then, conversely,
-super confusing maybe to beginners, so i am gonna try to find a balance as i go forward.
+N.B. I wanna maintain an informal blog that can be understood by beginners and more experienced computer enthusiasts and even just those with no experience who are curious. It may sound pedantic at times to those more experienced and then, conversely, super confusing maybe to beginners, so I am gonna try to find a balance as I go forward.
 
-now, i know the images of the new updates i am including in this post will not really look much different
-from the ones in the last post, and you may be thinking, "it hardly looks different, two days just do that??"
-and the answer is yes, those updates did indeed take me two days, even though it doesn't look like much.
+Now, I know the images of the new updates I am including in this post will not really look much different from the ones in the last post, and you may be thinking, "It hardly looks different, two days just do that??" And the answer is yes, those updates did indeed take me two days, even though it doesn't look like much.
 
 [IMAGE:0] [IMAGE:4]
 
-however, what you can't see is the time and effort i put into things "behind the curtains"
+However, what you can't see is the time and effort I put into things "behind the curtains."
 
-i wanted a fresh start so i made a new github account solely for the purpose of my website
+I wanted a fresh start so I made a new GitHub account solely for the purpose of my website.
 
-then had to make sure my github account was all good to go in vs code so i can push, commit
-through vs code terminal
+Then had to make sure my GitHub account was all good to go in VS Code so I can push, commit through VS Code terminal.
 
-let's not forget how long and tedious organizing directories, files, etc is
-and then programmers' version of "dotting our i's and crossing our t's,"
-which is verifying that variable names and references match up.
-the difference between    "blog_posts" and "blog_post"     or "image1" and "image_1" is usually caught
-pretty quickly; however, each of these start adding up, too
+Let's not forget how long and tedious organizing directories, files, etc. is and then programmers' version of "dotting our i's and crossing our t's," which is verifying that variable names and references match up. The difference between "blog_posts" and "blog_post" or "image1" and "image_1" is usually caught pretty quickly; however, each of these start adding up, too.
 
-also, the images from my previous update were just from me testing it LOCALLY. i had not put it out LIVE at that point
-so that also took up some time to do, trying to get it going live rather than viewing it and testing locally
+Also, the images from my previous update were just from me testing it locally. I had not put it out live at that point so that also took up some time to do, trying to get it going live rather than viewing it and testing locally.
 
-then there's stuff like making an edit, committing, and pushing only to realize it's descending order,
-instead of ascending order, so making another edit then re-committing, re-pushing, over and over each time you catch minute things
+Then there's stuff like making an edit, committing, and pushing only to realize it's descending order instead of ascending order, so making another edit then re-committing, re-pushing, over and over each time you catch minute things.
 
 [IMAGE:1]
 
-and then just everyday stuff in between haha
+And then just everyday stuff in between haha.
 
-the point of that long-winded update for what doesn't seem like much of a difference on the surface anyway
-is the importance of the backbone of any website. you want a good foundation and make sure the design, architecture,
-organization, or whatever is set up properly from the beginning to make your life easier as you go.
+The point of that long-winded update for what doesn't seem like much of a difference on the surface anyway is the importance of the backbone of any website. You want a good foundation and make sure the design, architecture, organization, or whatever is set up properly from the beginning to make your life easier as you go.
 
-for example, the naive way of setting up the blog html page would be to use different tags </>
-and put the text in paragraph tags, for example, [CODE]<p></p>[/CODE]
-then put an image in an image tag, like [CODE]<img src="image1.jpg" alt="image1">[/CODE]
-and so on ... here's a classic beginner's first html of what i mean:
+For example, the naive way of setting up the blog HTML page would be to use different tags </> and put the text in paragraph tags, for example, <p></p> then put an image in an image tag, like <img src="image1.jpg" alt="image1"> and so on. Here's a classic beginner's first HTML of what I mean:
 [CODE]
 <!DOCTYPE html>
 <html>
@@ -78,26 +61,26 @@ and so on ... here's a classic beginner's first html of what i mean:
 
 </html>
 [/CODE]
-the problem with this is that it is static and hard-coded.
-i am not trying to make fun of beginners, but this is very common early on
-(everyone learning html has made a variation of the above while first learning, too, btw)
+The problem with this is that it is static and hard-coded.
+I am not trying to make fun of beginners, but this is very common early on
+(everyone learning HTML has made a variation of the above while first learning, too, btw)
 but this does not have "depth," let's say, in its structure.
 
-individuals like to organize things differently, but for myself, what i did was this:
-- i have a directory called blog
+Individuals like to organize things differently, but for myself, what I did was this:
+- I have a directory called blog
   and another directory called home
   and can continue to add more pages as i go
-- within each i have .css, .html, .ts
-- i have a directory where i keep my .txt blog texts
-- i have a directory where i keep my all images
+- Within each I have .css, .html, .ts
+- I have a directory where I keep my .txt blog texts
+- I have a directory where I keep my all images
 
-so when i write my blog html, i am not hard-coding each, individual blog post, but instead i am writing one line of code
+So when I write my blog html, I am not hard-coding each, individual blog post, but instead I am writing one line of code
 that REFERENCES the .txt files and then another line that references images, etc and use json also
-in this way, i only write these lines of references one time; however, i can have use them for multiple references of text, images
+In this way, I only write these lines of references one time; however, I can have use them for multiple references of text, images
 
-i can get more depth about all this later, but just wanted to put an update and explain some of the foundation i've laid
-for the website so far. i feel like sometimes spending more time doing these tedious things in the beginning just helps
-you out in the long run
+I can get more depth about all this later, but just wanted to put an update and explain some of the foundation I've laid
+for the website so far. I feel like sometimes spending more time doing these tedious things in the beginning just helps
+you out in the long run.
 
 I STILL NEED TO THINK OF A WEBSITE NAME, TOO!
 

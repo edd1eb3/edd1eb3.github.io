@@ -126,6 +126,22 @@
           "src": "images/post6_images/summation.png"
         }
       ]
+    },
+    {
+      "id": 7,
+      "date": "2026-06-14",
+      "time": "00:11",
+      "title": "is technology ruining the spirit of sports?",
+      "contentFile": "post_7.txt",
+      "tags": [ "blog" ],
+      "images": [
+        {
+          "src": "images/post7_images/fifa.jpg"
+        },
+        {
+          "src": "images/post7_images/hawk_eye.jpg"
+        }
+      ]
     }
   ]
 }

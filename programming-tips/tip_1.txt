@@ -23,7 +23,8 @@ directories for your projects.
 
 - I mentioned it in one of my update blogs, but I'll mention again that it is worth spending time doing certain tedious
 things when you're setting up the initial foundation of your design, architecture, framework, or whatever in the beginning.
-You can read more about it under the post "Setting the Foundation" in my update blog: https://edd1eb3.github.io/updates.
+You can read more about it under the post "Setting the Foundation" in my update blog: <a href="/updates" style="color: var(--orange, #ff6f00);
+text-decoration: underline;">Website Updates Logs</a>.
 The point is, if you have a decent framework you've established from the beginning, you'll realize that a lotta things become
 copy, paste with minor adjustments. The first page I made was the blog page and spent a lotta time getting the .css, .html, .ts,
 JSON programmed in a way that could be refactored later on. So now it takes me minutes to just make minor adjustments,

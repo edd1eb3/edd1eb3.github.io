@@ -1,0 +1,58 @@
+The 2026 FIFA World Cup just started, the French Open just concluded, and the NY Knicks just clenched their first
+NBA Championhsip in 53 years. Although I am an avid sports spectator, I am also a Computer Engineer, and I can't
+help watching sports match without also noticing the technology employed nowadays and wondering about the designs
+and architectures.
+
+[IMAGE:0] [IMAGE:1]
+
+Whether it's a Video Assistant Referee (VAR) that alerts match officials that a player was offsides in a FIFA
+match, it's Electronic Line Calling (ELC)/ Hawk Eye in a tennis match, or it's the ability to challenge a call
+in the NBA and MLB, technology is now pervasive in sports. Just like technology is pervasive in our daily lives,
+in general, with the Internet of Things (IoT), with how our smart watches are synced to our mobile phones to send
+us notifications, or even with how we can be listening to a song in the car and then seamlessly switch it over
+to a Bluetooth speaker in our homes when we walk inside.
+
+Many may read the word "pervasive" and think that it has a negative connotation, but I didn't say "invasive," I said
+"pervasive" haha. The word, "pervasive," just means everywhere. "Pervasive Computing" is the proper term coined by
+Mark Weiser in 1988, but I will refer to it as "ubicomp" which is short for it's other name, "ubiquitious computing,"
+and sounds cooler =D
+<a href="https://www.cs.umd.edu/~bederson/classes/hci/handouts/10%20-%20weiser%20-%20ubiquitous%20computing.pdf">
+  Weiser’s 1991 Ubicomp Paper: The Computer for the 21st Century
+</a>
+<a href="https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf" target="_blank">
+  Weiser’s 1991 Ubicomp Paper: The Computer for the 21st Century
+</a>
+
+
+I won't delve too much into ubicomp because that's a topic for another blog and another day, but it's important to
+recognize that Weiser envisioned VAR, ELC, etc back in 1988, officially publishing his paradigm in 1991. We're
+talking about the late 80s, early 90s when the internet wasn't even accessible to the public yet until the mid-90s.
+I remember when I was in Junior High School (in the mid-2000s) and SMART Boards were the "latest and greatest."
+Weiser foresaw ALL this back in the 80s, decaaades before any of this technology even became widespread.
+
+Ok, maybe he didn't specifically envision VAR, ELC, or whatever, but he definetly knew technology would seep into
+every corner of our lives eventually.
+
+But, let's re-focus our attention to technology in sports specifically again. Is technology ruining the spirit of
+sports?
+
+Some, who are more "traditionalists" or "purists," let's say, oppose technology in sports. They'll say,
+"Remember when Frank Lampard should've had a goal in the 2010 World Cup vs Germany and there was no VAR back then?
+If his goal was disallowed, then why should we allow a goal now upon further review and change the call? That's
+inconsistent." <a href="https://www.youtube.com/watch?v=gcAH4Qm5M84" target="_blank">
+  https://www.youtube.com/watch?v=gcAH4Qm5M84
+</a>
+
+And who remembers Zizou's penalty kick in the 2006 FIFA World Cup Finals that was actually allowed straight away?
+<a href=""https://www.youtube.com/watch?v=ilk8rVdcXRw"  target="_blank">
+  "https://www.youtube.com/watch?v=ilk8rVdcXRw" 
+</a>
+
+On the other hand, others would say, "Well, with this technology, there would be impartial calls that are objective.
+We can't reverse incorrect calls in the past, but we can all at least agree that moving forward that this technology
+is a fair system on which we can all reasonably agree."
+
+And so it makes you wonder how do we balance sports technology that is fair and impartial, but also without ruining
+the spirit of the game? I mean, imagine Babe Ruth or Joe DiMaggio challenging ABS in MLB? Just because they didn't have
+this technology back then, should we be opposed to using it today? And, does it ruin the spirit of the game? How does
+this inevitably pervasive technology get incorporated without being invasive instead and ruining the spirit of the game?

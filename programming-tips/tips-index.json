@@ -36,6 +36,32 @@
 
       ],
       "tags": [ "tips&tricks" ]
+    },
+    {
+      "id": 2,
+      "title": "old school methods for modern programming",
+      "date": "2026-06-15",
+      "time": "12:32",
+      "contentFile": "tip_2.txt",
+      "images": [
+        {
+          "src": "images/tips_tricks_images/tips_tricks2/dikstra_image.png",
+          "alt": "map your handwritten notes to code",
+          "caption": "map your handwritten notes to code"
+        },
+        {
+          "src": "images/tips_tricks_images/tips_tricks2/notepad_programming.mp4",
+          "alt": "programming in notepad (C++, Python)",
+          "caption": "programming in notepad (C++, Python)"
+        },
+        {
+          "src": "images/tips_tricks_images/tips_tricks2/dikstra_notes.png",
+          "alt": "handwrite your code first",
+          "caption": "handwrite your code first"
+        }
+
+      ],
+      "tags": [ "tips&tricks" ]
     }
   ]
 }

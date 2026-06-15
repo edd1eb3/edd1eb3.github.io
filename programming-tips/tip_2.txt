@@ -1,0 +1,40 @@
+- Do not just open up your IDE and start typing right away. Take some time to conceptualize the problem and think through your approach,
+whether it's old-school writing in a notebook or on a whiteboard.
+
+How do you approach a complicated task and figure out how you're gonna program it?
+How would you implement Dijkstra's Shortest Path Algorithm in C++, for example?
+Below, I will show you my process from blank paper to code implementation.
+Dikstra's Algorithm, btw, is an algorithm for finding the shortest paths between nodes in a weighted graph </a> <a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" target="_blank">
+  Dikstra's Algorithm Wikipedia Page
+</a>
+First, handwrite your pseudo-code and handdraw graphs to better conceptualize the problem,
+[IMAGE:2]
+and then "translate" your pseudo-code to code.
+[IMAGE:0]
+There's a difference between understanding a problem logically and understanding the problem syntactically. You should begin with the
+logic behind your project and then "translate" that logic to programming syntax.
+
+- Another general tip is get used to working in blank canvases. What I mean by "black canvases" is a fresh sheet of paper or a clean
+whiteboard. But a blank canvas can also be a notepad file. No matter if you write it on paper with pen, whiteboard with marker, or
+typing it out in a blank notepad, the logic should be consistent and you should be able to write your pseudo-code very, very close to
+what you're eventually gonna program because this helps you develop an approach without relying on AI features in your IDE, such as
+auto-complete or auto-fill-suggestions.
+You should be confident that something you type in a notepad, without any VS Code IntelliSense or whatever is correct, both logically
+and syntactically. If you don't know what IntelliSense is, click this:</a> <a href="https://code.visualstudio.com/docs/editing/intellisense" target="_blank">
+  How IntelliSense works
+</a>
+It's basically like word auto-complete on your phone when texting, except it's for auto-suggested code in the IDE. You should be comfortable
+opening up a blank notepad and typing out different functions or whatever, like below, and be confident that it is correct, both logically
+and syntatically, without having to compile or run it.
+[IMAGE:1]
+Back in the day, during the "Punch Card Era of Computing," programmers spent hours making sure every punchcard was correct. And if there were
+an error, it would be hours of work to re-punch a new card. This was way before typing.</a> <a href="https://en.wikipedia.org/wiki/Computer_programming_in_the_punched_card_era" target="_blank">
+  Punchcard Era Wikipedia Page
+</a>
+And then when we first transitioned to the "Typing Era," there were still no fancy IDEs yet that would show a red squiggly line underneath
+a typo or an error detected by IntelliSense. We have all these quick editing tools at our disposal now, but I do believe working in blank
+canvases enables programmers to truly better understand programming concepts. When I was in school, tests in many courses had to be written
+out by hand with no laptops or references. It may sound weird to the newer generation of programmers, but these oldschool methods expose
+if you, as a programmer, truly understand the logic and syntax of your code.
+
+In a future post, I'll exaplin the difference between logical, syntax, compilation, and runtime errors.

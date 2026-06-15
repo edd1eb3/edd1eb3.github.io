@@ -6,6 +6,7 @@
       "time": "17:01",
       "title": "my objective for this website",
       "contentFile": "update_2.txt",
+      "tags": [ "web_update" ],
       "images": [
         {
           "src": "images/Screenshot 2026-06-04 155524.png",
@@ -35,6 +36,7 @@
       "time": "14:30",
       "title": "setting the foundation",
       "contentFile": "update_3.txt",
+      "tags": [ "web_update" ],
       "images": [
         {
           "src": "images/Screenshot 2026-06-06 214127.png",
@@ -74,6 +76,7 @@
       "time": "15:21",
       "title": "updates to navigation within website",
       "contentFile": "update_4.txt",
+      "tags": [ "web_update" ],
       "images": [
         {
           "src": "images/Screenshot 2026-06-07 154052.png",
@@ -88,6 +91,7 @@
       "time": "02:33",
       "title": "updated homepage and added tags",
       "contentFile": "update_5.txt",
+      "tags": [ "web_update" ],
       "images": [
         {
           "src": "images/update5_images/Screenshot 2026-06-10 022410.png",
@@ -112,24 +116,25 @@
 
       ]
     },
-      {
-        "id": 6,
-        "date": "2026-06-10",
-        "time": "18:47",
-        "title": "added a new games section",
-        "contentFile": "update_6.txt",
-        "images": [
-          {
-            "src": "images/update6_images/games_update.png",
-            "alt": "added a games page",
-            "caption": "added a games page"
-          },
-          {
-            "src": "images/update6_images/number_guessing_game.png",
-            "alt": "added a new game",
-            "caption": "added a new game"
-          }
-        ]
-      }
+    {
+      "id": 6,
+      "date": "2026-06-10",
+      "time": "18:47",
+      "title": "added a new games section",
+      "contentFile": "update_6.txt",
+      "tags": [ "web_update" ],
+      "images": [
+        {
+          "src": "images/update6_images/games_update.png",
+          "alt": "added a games page",
+          "caption": "added a games page"
+        },
+        {
+          "src": "images/update6_images/number_guessing_game.png",
+          "alt": "added a new game",
+          "caption": "added a new game"
+        }
+      ]
+    }
   ]
 }

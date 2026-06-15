@@ -15,15 +15,11 @@ to a Bluetooth speaker in our homes when we walk inside.
 Many may read the word "pervasive" and think that it has a negative connotation, but I didn't say "invasive," I said
 "pervasive" haha. The word, "pervasive," just means everywhere. "Pervasive Computing" is the proper term coined by
 Mark Weiser in 1988, but I will refer to it as "ubicomp" which is short for it's other name, "ubiquitious computing,"
-and sounds cooler =D
-<a href="https://www.cs.umd.edu/~bederson/classes/hci/handouts/10%20-%20weiser%20-%20ubiquitous%20computing.pdf">
+and sounds cooler =D <a href="https://www.cs.umd.edu/~bederson/classes/hci/handouts/10%20-%20weiser%20-%20ubiquitous%20computing.pdf">
+  Weiser’s 1991 Ubicomp Paper: The Computer for the 21st Century
+</a> <a href="https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf" target="_blank">
   Weiser’s 1991 Ubicomp Paper: The Computer for the 21st Century
 </a>
-<a href="https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf" target="_blank">
-  Weiser’s 1991 Ubicomp Paper: The Computer for the 21st Century
-</a>
-
-
 I won't delve too much into ubicomp because that's a topic for another blog and another day, but it's important to
 recognize that Weiser envisioned VAR, ELC, etc back in 1988, officially publishing his paradigm in 1991. We're
 talking about the late 80s, early 90s when the internet wasn't even accessible to the public yet until the mid-90s.
@@ -41,14 +37,9 @@ Some, who are more "traditionalists" or "purists," let's say, oppose technology 
 If his goal was disallowed, then why should we allow a goal now upon further review and change the call? That's
 inconsistent." <a href="https://www.youtube.com/watch?v=gcAH4Qm5M84" target="_blank">
   https://www.youtube.com/watch?v=gcAH4Qm5M84
-</a>
-
-And who remembers Zizou's penalty kick in the 2006 FIFA World Cup Finals that was actually allowed straight away?
-<a href=""https://www.youtube.com/watch?v=ilk8rVdcXRw"  target="_blank">
-  "https://www.youtube.com/watch?v=ilk8rVdcXRw" 
-</a>
-
-On the other hand, others would say, "Well, with this technology, there would be impartial calls that are objective.
+</a> And who remembers Zizou's penalty kick in the 2006 FIFA World Cup Finals that was actually allowed straight away? <a href="https://www.youtube.com/watch?v=ilk8rVdcXRw"  target="_blank">
+  https://www.youtube.com/watch?v=ilk8rVdcXRw
+</a> On the other hand, others would say, "Well, with this technology, there would be impartial calls that are objective.
 We can't reverse incorrect calls in the past, but we can all at least agree that moving forward that this technology
 is a fair system on which we can all reasonably agree."
 

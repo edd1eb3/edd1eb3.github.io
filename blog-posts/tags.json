@@ -5,6 +5,42 @@
       "name": "blog",
       "color": "#ff6f00",
       "description": "blog posts"
+    },
+    {
+      "slug": "tech",
+      "name": "tech",
+      "color": "#ff6f00",
+      "description": "tech posts"
+    },
+    {
+      "slug": "sports",
+      "name": "sports",
+      "color": "#ff6f00",
+      "description": "sports posts"
+    },
+    {
+      "slug": "ubicomp",
+      "name": "ubicomp",
+      "color": "#ff6f00",
+      "description": "ubicomp posts"
+    },
+    {
+      "slug": "ml",
+      "name": "ml",
+      "color": "#ff6f00",
+      "description": "machine learning posts"
+    },
+    {
+      "slug": "ai",
+      "name": "ai",
+      "color": "#ff6f00",
+      "description": "artificial intel posts"
+    },
+    {
+      "slug": "web_update",
+      "name": "web_update",
+      "color": "#ff6f00",
+      "description": "web_update posts"
     }
   ]
 }

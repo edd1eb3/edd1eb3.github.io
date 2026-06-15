@@ -155,6 +155,21 @@
           "caption": "selected tag filters will be indicated by orange"
         }
       ]
+    },
+    {
+      "id": 8,
+      "date": "2026-06-15",
+      "time": "17:21",
+      "title": "website now has a name!",
+      "contentFile": "update_8.txt",
+      "tags": [ "web_update", "wildwildwest" ],
+      "images": [
+        {
+          "src": "images/update8_images/website_title.png",
+          "alt": "www digital frontier",
+          "caption": "www digital frontier"
+        }
+      ]
     }
   ]
 }

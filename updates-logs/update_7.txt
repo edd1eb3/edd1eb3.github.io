@@ -1,0 +1,10 @@
+Just added a functioning #hashtag feature.
+I had added a hashtag button feature, but there was no routing or re-direction to a hashtag page
+or anything until now. The tag buttons were just place holders with no functionality yet,
+but you can now view ALL my posts (whether blog, website updates, or tips&tricks) filtered
+by specific tags. 
+
+Not only did I add a #hashtag page which filters by tags, but I also added functionality
+to the placeholder buttons.
+
+[IMAGE:0] [IMAGE:1]

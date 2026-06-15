@@ -135,6 +135,26 @@
           "caption": "added a new game"
         }
       ]
+    },
+    {
+      "id": 7,
+      "date": "2026-06-14",
+      "time": "23:47",
+      "title": "added #hashtag functionality",
+      "contentFile": "update_7.txt",
+      "tags": [ "web_update" ],
+      "images": [
+        {
+          "src": "images/update7_images/hashtags_page.png",
+          "alt": "added #hashtag functionality",
+          "caption": "added #hashtag functionality"
+        },
+        {
+          "src": "images/update7_images/hashtags_selected.png",
+          "alt": "selected tag filters will be indicated by orange",
+          "caption": "selected tag filters will be indicated by orange"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,57 @@
+
+Search and Sort will always be cornerstones of any project.
+
+Search and Sort aren't just buzzwords and are fundemental aspects in programming projects,
+just as in daily life.
+When we drive to the grocery store, don't we SEARCH all the availabe parking spots and
+then SORT them by proximity to the door?
+When we bake a cake, don't we SEARCH and gather all the ingredients and then SORT them
+by dry and wet ingredients?
+When we call someone, don't we SEARCH our contacts and scroll through an alphabetized
+SORTED list?
+Whether you're a novice or more experienced, get used to adapting some sort of Search
+and Sort into your projects.
+In the beginning, we may do simple Search and Sort like below,
+[CODE]
+//c++
+int search_for_letter(string word, char letter) {
+    for (int index = 0; index < word.size(); index++) {
+        if (word[index] == letter) { return index; }
+    }
+//(word = 'apple', letter = 'l') -> index [3]
+}
+[/CODE]
+[CODE]
+//c++
+#include <algorithm>
+
+int array_of_numbers[] = {3, 1, 4, 2, 5};
+sort(array_of_numbers.begin(), array_of_numbers.end());
+//{3, 1, 4, 2, 5} --> {1, 2, 3, 4, 5}
+[/CODE]
+but it becames more complicated as you go. No longer are you just dealing with
+strings or ints, but now you have to figure out a way to search through different classes
+and data structures, whether primitive types or user-defined/ user-created, like I search
+through all my blog posts below and sort them by the date and time published.
+
+[CODE]
+//typescript
+private get_most_recent_post(posts: BlogPost[] = []): BlogPost | null {
+    if (!posts || posts.length === 0) return null;
+    const timestamped_posts = posts.map(p => ({ p, timestamped_posts: this.getPostTimestamp(p) }));
+    timestamped_posts.sort((a, b) => b.timestamped_posts - a.timestamped_posts);
+    return timestamped_posts[0].p;
+  }
+//takes a list of posts of type BlogPosts,
+//sorts the blog posts by timestamps,
+//and returns the first element ([0], most recent) of the sorted blog posts
+[/CODE]
+
+Or, check out how I used search to look for all posts (blog, updates, tips&tricks) and then sorted
+them by #hashtags here: <a href="/hashtags" style="color: var(--orange, #ff6f00);
+text-decoration: underline;">hashtags page</a>
+
+Whether it is in web development, it is Google building a whole company around efficient search,
+or it is Netflix sorting the Top 10 Most Popular Movies Today, get used to search and sort.
+Start by incoporating it into smaller projects and then challenging yourself to see how you can
+incorporate it in bigger projects because almost every project requires some sort of search and sort.

@@ -1,0 +1,58 @@
+
+I haven't made any additions to the website or posted any blog posts in about a week because I've been on a roadtrip.
+My girlfriend and I explored Washington D.C. during the America 250 celebration. We then went to Atlanta, which is one of
+the host cities of the FIFA World Cup and attended an Atlanta Braves baseball game also. Before I met up with her, though,
+I was in the car by myself thinking about ways to improve the website, what I should add, and how I would integrate it.
+
+I don't live in a futuristic Orbit City like the Jetsons in which I can just type away on my laptop while my flying-car
+takes me to my destination, so it was just myself, my thoughts, and my squad of rubber ducks in my Jeep blasting music as
+I thought about the improvements I'd make once my roadtrip is over.
+[IMAGE:0]
+
+Being in the car by myself for a while got me thinking about how we crave connection with others. I'm not super active
+on social media, but I totally understand the excitement of getting a 'like' or comments on a social media post. My website
+doesn't have a mechanism for public feedback, a 'like' feature, or anything where others can connect with me yet (I'm considering
+adding a forum page similar to Reddit soon, though).
+
+Because I can't connect with others through my website yet, I feel like I'm just shouting into the void right now. At first,
+I was trying to consistently put out blog posts so my readers were constantly updated; however, realistically, I know that this
+website is only reaching a few people right now, so it doesn't really matter. My motivation for consistent blog posts is so that
+when it actually does start to grow a following, readers can see the whole progression of the website and my thoughts.
+
+Some people would say that technology is making us more anti-social because we're getting addicted to screens and ignoring the
+real world and others. While I do agree with this sentiment to a certain degree, I also see that technology is making us connect
+in more ways than in the past. I mean, how different is my desire to connect to others through this website any different than
+a journalist writing an op-ed in a newspaper before computers and the Digital Age?
+
+Is sending a friend an SMS any different than people writing letters to each other centuries ago? Or, does it differ much from
+telegraph communication using Morse Code? How different is posting new vacation photos on IG any different than when people would
+travel and send post-cards to friends showing them where they traveled? Technology and social media didn't create this desire to
+to connect with others, except that these forms of communIcation are now more digitized and we utilize different media to connect.
+
+The first message trasnmitted across the "Internet" was "lo" on October 29, 1969. UCLA computer scientists were trying to transmit
+the word, "login," to computer scientists at Stanford University. They verified this transmission by communicating over landline
+telephones. Stanford researchers confirmed they received the letters, 'l' and 'o' and that the system subsequently crashed, thus
+making the first transmission "lo." You can read more about it in this Smithsonian Magazine article here:
+<a href="https://www.smithsonianmag.com/smart-news/these-two-small-letters-heralded-beginning-online-communication-180965327/">Click to read about first ARPANET transmission from UCLA to Stanford</a> 
+
+My introduction to online communication was around 1998 through America Online (AOL) chatrooms and AOL Instant Messenger (AIM).
+After coming home and finishing my homework, I would log into AOL and chat with my friends after school. This was not a substitution
+to verbal communication, but rather an augmentation. Conversations during lunch or recess would be paused until after school, then
+paused again until we got home on AOL to chat, and finally the conversation would pick back up the next morning before school again.
+It didn't replace everyday conversations and allowed us to continue conversations mmore fluidly using different media.
+[IMAGE:1]
+
+Then I got my first mobile phone around 2000 or 2001, a Nokia cellular phone through Cingular, and actually saw it in the
+Smithsonian National Museum of Natural History in D.C.
+(<a href="https://naturalhistory.si.edu/exhibits/cellphone-unseen-connections?utm_source=si.edu&utm_medium=referral&utm_campaign=MyVisitSI">Click to see the Smithsonian Cell Phone exhibit</a>).
+A new "dialect," let's call it, was created. Phones didn't have the QWERTY keyboards to which we're accustomed now, so new terms were
+created, such as "ttyl (talk to you later)," "brb, (be right back)" when we stepped away from the computer, or "g2g (got to go)" when
+logging off. Younger generations will be puzzled if they read "143," but that became shorthand in SMS for "I love you" derived from
+the number of letters in "I love you." Twitter limited the amount of characters in a Tweet where we saw "lol (laughing out loud),"
+"idk (I don't know)," "idc (I don't care)," etc, but social media didn't create these and they were just merely adapted from the
+early 2000s SMS dialect.
+
+Over the last half century, we saw a transition from the ARPANET's first "lo" message, to static website blogs, to e-mails and
+chatrooms, to SMS messaging, to 140 character Tweets, to Facebook and other social media where we are today. We've been trying to
+communicate with others using digital media way long before social media platforms, and it's this desire to connect that inspired me to
+next add a Reddit-like forum page or a comments section for my blog posts.

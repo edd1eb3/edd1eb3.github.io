@@ -150,6 +150,22 @@
       "title": "ai is transforming the landscape, but some things (like search & sort) don't change",
       "contentFile": "post_8.txt",
       "tags": [ "blog", "search&sort" ]
+    },
+    {
+      "id": 9,
+      "date": "2026-06-24",
+      "time": "18:56",
+      "title": "connecting with others in the digital age",
+      "contentFile": "post_9.txt",
+      "tags": [ "blog" ],
+      "images": [
+        {
+          "src": "images/post9_images/jetsons.png"
+        },
+        {
+          "src": "images/post9_images/aol_aim.png"
+        }
+      ]
     }
   ]
 }

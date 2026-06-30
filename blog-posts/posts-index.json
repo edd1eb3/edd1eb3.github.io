@@ -166,6 +166,25 @@
           "src": "images/post9_images/aol_aim.png"
         }
       ]
+    },
+    {
+      "id": 10,
+      "date": "2026-06-25",
+      "time": "14:16",
+      "title": "clearing up confusion about 'the cloud'",
+      "contentFile": "post_10.txt",
+      "tags": [ "blog", "thecloud" ],
+      "images": [
+        {
+          "src": "images/post10_images/data_center.jpg"
+        },
+        {
+          "src": "images/post10_images/Cloud_computing.png"
+        },
+        {
+          "src": "images/post10_images/Cloud_storage_architecture.png"
+        }
+      ]
     }
   ]
 }

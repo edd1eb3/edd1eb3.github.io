@@ -1,0 +1,45 @@
+When it rains, we look up at the grey skies and it's obvious to us from where the precipitation comes.
+From where does the data we retrieve daily come, though? "The data is somewhere up in the sky," some may
+vaguely say, but where exactly "in the sky" or "in the clouds" is the data being stored, transmitted, or received?
+It's not as obvious as rainfall from clouds. There are many misconceptions about "the cloud," which confuse average
+end-users, but the answer to the question, "From where is my data received?" is much simpler than many may realize;
+the data is stored, transmitted, and received in servers in enormous remote data centers.
+[IMAGE:0]
+Ok, maybe it's not that simple and it actually is pretty complicated, but I'll break it down simply for the average
+end-user.
+
+Before we get into data transmission and reception, though, we have to get into data storage. By now, we are all familiar
+with different types of storage devices. We have gone from old-school punch cards and magnetic tapes to floppy discs,
+hard-disc drives, compact discs (CDs), digital versatile discs (DVDs), USB flash drives, and solid state drives (SSDs).
+There are different types of memory, such as flash memory, RAM, cache, or virtual memory, but that's a blog topic for
+another day. I will, however, emphasize the difference between a local storage device and a remote storage device.
+
+I'll explain using an analogy with something else we also use daily, which is ice. In your freezer, you may have an
+ice-maker, which you can think of as your local storage device, with each ice cube being separate datum. The freezer
+stores the ice cubes locally and you can easily retrieve them. But what about if you don't have an ice-maker or don't
+have room in the freezer? You may then go to a gas station and purchase a bag of ice. So you can think of the gas station
+as the remote data center and the different freezers which hold various sized bags of ice as the servers. The main point
+is that "the cloud" isn't just vast, empty space like the cosmos, but is very much physical just like any other real estate.
+
+Now, let's get into data transmission and reception. In computing, we distinguish data transmission and reception just
+as we differentiate input and output (I/O), or write and read operations. Data transmission and reception in cloud storage
+is the process of securely moving data between a local device and a remote server via the Internet. When you transmit data,
+your files are broken down into digital packets, encrypted for security, and routed through network communication protocols
+(like HTTPS) to the provider’s data center, where they are written to physical hard drives or solid-state media. On the other
+hand, with data reception, the cloud infrastructure locates your requested data files across its storage clusters, decrypts
+the data packets, and then streams them back across the network to re-construct the original file, combining the packets back
+together on your device, like your mobile phone or laptop.
+
+[IMAGE:1] [IMAGE:2]
+
+Historically, the original computer mainframes and data servers were reserved for universities, government entities, and big
+business corporations who had the capital to purchase physical data space no different than leasing office space. Nowadays, though,
+data servers provide services at relatively affordable prices for the average consumer. This is the basic idea behind you uploading
+your photos onto your iCloud account and then downloading them so you can view them, for example.
+
+The reason I am blogging about the topic of "the cloud" is to clarify the basic misconception that "the cloud" is not just
+something in empty space and actually takes up physical real estate. I'm also blogging about this topic because I've been
+thinking about how I wanna store, transmit, and receive the data used in my website in a better way by re-vamping the integration of
+the database on the back-end. Be on the lookout for ways you can comment on posts or you can make posts to a forums page I am
+still deliberating on how to incorporate!
+

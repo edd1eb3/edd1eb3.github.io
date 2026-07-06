@@ -178,6 +178,21 @@
       "title": "got my own domain!",
       "contentFile": "update_9.txt",
       "tags": [ "web_update", "wildwildwest" ]
+    },
+    {
+      "id": 10,
+      "date": "2026-07-05",
+      "time": "19:58",
+      "title": "excited to announce a comments feature!",
+      "contentFile": "update_10.txt",
+      "tags": [ "web_update", "wildwildwest", "new_feature" ],
+      "images": [
+        {
+          "src": "images/update10_images/added_comment_section.png",
+          "alt": "comment to engage with the digital frontier community!",
+          "caption": "comment to engage with the digital frontier community!"
+        }
+      ]
     }
   ]
 }

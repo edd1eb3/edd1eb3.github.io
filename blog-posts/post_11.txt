@@ -1,0 +1,54 @@
+It's been about a month since I established this website and I've been reflecting on the additions I've made made so far. I've added different pages
+for blog posts, web updates, and tips & tricks, but I just added a feature by which others can comment on all three of the aformentioned pages
+which makes me the most proud and excited among all my updates thus far.
+
+This was the most challenging aspect of the project because I had to consider more details about how I would integrate the back-end database with
+the front-end user interaction. Prior to this, my only considerations pertaining to the database back-end was pretty much simple store/retrieve text
+or image files for blogs, etc.
+
+This was more involved because I had to consider:
+1) I've just been writing and posting my own blog posts, so how will others be able to comment and interact, themselves, now?
+2) My website was "static" so anytime I updated and saved, I was in full control of when the updates got pushed and published. Now, though, I
+   needed to think about how a user's comment would trigger the website to update and display comments. AND for that comment to appear
+   instantaneously after hitting Enter!
+3) So, if I want it to happen automatically and instantaneously, I'd need to figure out how to continuously poll the data and maintain real-time
+   changes.
+4) If I can just get users to comment, I'd be so excited! BUT down the line I'm also considering adding stuff like a button to "like' a comment
+   or a reply feature so I'd need to create the comment component in a flexible way to allow further additions like that.
+
+...and many other considerations for implementation and integration.
+
+While I'm proud of this addition because I figured out some difficult technical aspects, I'm also very proud because it's the first step towards
+building a community.
+
+I've been thinking of a "brand" lately, and the ideas and attitudes that that brand represents. Soon I will write a Mission and Vision for The
+Wild, Wild West of the Digital Frontier, but for now, I'll mention some things here.
+
+The Wild, Wild West of the Digital Frontier will be a community of computer enthusiasts who share a common interest in being Digital Pioneers,
+sharing novel ideas and giving constructive criticism to community members, with the overall goal being that each Digital Pioneer enhances
+their knowledge and skills of programming, web development, and just anything computer related.
+
+The early days of the World Wide Web in the 90's and early 2000's were exclusive to those who had programming or computer knowledge, but The
+Wild, Wild West of the Digital Frontier will be a community that's inclusive to any Digital Pioneer, regardless of their knowledge or skill
+level. This will be an inclusive community that is apolitical and anti-discriminatory and comprised of diverse visionaries' ideas and
+perspectives from whom all can learn and improve.
+[IMAGE:0]
+My personal goal to the community is to create and maintain an atmosphere that fosters creative and innovative ideas by learning from other
+community members and being open to listening to their suggestions.
+
+My plans for the future:
+
+1) I wanna add a vlog component. Sometimes it's just easier to talk rather than typing. Also, I tried the whole YouTube thing before making
+   this website, but I discovered very quickly that it's a PAYOLA system, a pay-to-play system in which you have to pay for further reach
+   and views. The Digital Frontier will truly adopt the spirit of the Wild, Wild West and start up a community from grassroots.
+2) I wanna add a forum component. Right now you can only respond to my posts, but what if a Digital Pioneer wanted to initiate discourse
+   around a topic about which they've been thinking? Be on the lookout for a Forum component similar to r/reddit in the near future!
+3) I also wanna add a Tutorial section. I get into niche topics and jargon, but I also wanna provide content for beginners or amateurs to
+   make this a community for all computer enthusiasts. This will differ from the Tips & Tricks page because my plan is to go through the
+   process of a beginner's first program and progressively build up toward more advanced data structures and algorithms. Yes, I know you
+   can view other tutorials on GeeksforGeeks, W3Schools, or YouTube playlists, but this will just give you another perspective. If
+   W3Schools can help you understand a concept, then I'm glad and you should share it with us! But, maybe, a certain topic won't click
+   the same way and I can give you a unique perspective.
+
+Please, comment any feedback and be on the lookout for the Mission and Vision to come and the Forum page in the next few weeks!
+Eventually only created accounts with a @the-digital-frontier.net will be able to write comments, but for now it is open to anyone

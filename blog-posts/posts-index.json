@@ -185,6 +185,19 @@
           "src": "images/post10_images/Cloud_storage_architecture.png"
         }
       ]
+    },
+    {
+      "id": 11,
+      "date": "2026-07-06",
+      "time": "14:33",
+      "title": "interact with the Digital Frontier community!",
+      "contentFile": "post_11.txt",
+      "tags": [ "blog", "wildwildwest" ],
+      "images": [
+        {
+          "src": "images/post11_images/Gemini_Generated_Image_a94nd0a94nd0a94n.png"
+        }
+      ]
     }
   ]
 }

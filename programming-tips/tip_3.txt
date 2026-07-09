@@ -1,0 +1,397 @@
+
+Bugs and errors aren't just mistakes that only beginner programmers make and even the best make some simple errors time to time.
+No matter what level programmer you are, we all encounter bugs and errors in our code. While we should avoid
+bugs and errors as best as we can, accept that there will inevitably be bugs and errors in your code, though, and it's just part of the process.
+
+In 1979, computer scientist and Pulitzer Prize recipient, Douglas Hofstadter, joked that
+"Hofstadter's Law is that it always takes longer than you expect, even when you take into account Hofstadter's Law."
+<a href="https://en.wikipedia.org/wiki/Hofstadter%27s_law">Hofstadter's Law</a>
+
+Then in the 1980's, developer Tom Cargill of Bell Laboratories said in jest that
+"The first 90 percent of the code accounts for the first 90 percent of the development time.
+The remaining 10 percent of the code accounts for the other 90 percent of the development time"
+<a href="https://en.wikipedia.org/wiki/Ninety%E2%80%93ninety_rule">Tom Cargill of Bell Laboratories</a>
+The joke is that development time takes up 180% rather than 100% because things usually take longer than we expect.
+
+So, if even experienced programmers acknowledge that it's just part of the process, you should not feel embarrassed
+about some bugs and errors you make.
+
+I will go over a mental checklist and system that I use when I'm debugging that may help you, starting with "defensive programming"
+and then going over the four main types of errors (logical, syntax, compilation, and runtime errors) so that you may spend less
+time debugging. Before we find solutions to a bug, we first have to identify what kinda error it is, which becomes easier over
+time as we program more and more.
+
+"DEFENSIVE PROGRAMMING"
+Debugging is reactionary, a process done after an issue in the code appears, but you should try to pre-emptively program "defensively."
+Like many topics, defensive programming deserves a whole separate post. The focus of this post is more about debugging, but it's crucial
+to mention defensive programming before any of the main errors that occur because defensive programming can eliminate a lotta the issues
+we often see in the debugging process.
+Defensive programming is a style or method of programming by which the developer foresees potential bugs beforehand and adds error handling,
+or defenses, to ensure the program runs as intended. Some examples are try-catch blocks, explicitly enforcing data types even when the
+programming language you're using, like Python, utilizes implied data types, or leveraging the std::exception class of C++ and
+the java.lang.Exception class within Java.
+
+Defensive programming will be covered more in depth later, but here are some simple examples that even beginners can start implementing right away.
+These are super simple examples, but it's just to illustrate a point that no matter how simple or complicated your program is, try-catch and
+standard exceptions should be used, in general.
+
+[CODE]
+//this code example is written in C++
+#include <iostream>// <-- needed for cout and cin
+#include <stdexcept>// <-- don't forget to include if utilizing exceptions!
+
+void perform_division(){
+
+  double numerator, denominator;
+
+  std::cout << "enter two numbers to divide\n";
+
+  std::cout << "enter numerator: ";
+  std::cin >> numerator;
+
+  std::cout << "enter denominator: ";
+  std::cin >> denominator;
+
+  try {
+
+    if(denominator == 0) {//this is a problem we foresaw so we'll handle it
+      throw std::runtime_error("We can't divide by zero!");
+    }
+
+    //else { we do the division }
+    double quotient = numerator / denominator;
+
+    //notice how I explicity give the data type double here
+    //and not int bcuz I know beforehand int division truncates the value
+    //and I wanna make sure the value takes into account floating point decimals
+
+    std::cout << numerator << " / " << denominator < " = " << quotient << "\n";
+
+  }
+
+  catch (const std::runtime_error& e) {
+
+    std::cout << "Caught this exception: " << e.what() << "\n";
+  }
+
+}
+
+
+[/CODE]
+
+[CODE]
+//this code example is written in Java
+import java.util.Scanner;//<-- needed to cin input
+
+public class DivisionExample {
+
+    public static void PerformDivision() throws Exception {//we have to let Java know we're pre-emptively gonna use an Exception check
+                                                           //we must add this in the function declaration, unlike C++ above
+        Scanner user_input = new Scanner(System.in);//open the Scanner
+        double numerator, denominator;
+
+        System.out.println("enter two numbers to divide");
+
+        System.out.print("enter numerator: ");
+        numerator = user_input.nextDouble();
+
+        System.out.print("enter denominator: ");
+        denominator = user_input.nextDouble();
+
+        try {
+            if (denominator == 0) {
+                throw new Exception("We can't divide by zero!");
+            }
+
+            double quotient = numerator / denominator;
+            System.out.println(numerator + " / " + denominator + " = " + quotient);
+        } 
+        catch (Exception e) {
+            System.out.println("Caught this exception: " + e.getMessage());
+            
+            // e.printStackTrace(); // Pro Tip: use this to see more details, standard way to see the full error line numbers
+        } 
+        finally { user_input.close(); } //we opened the Scanner so now we must close it
+    }
+
+    public static void main(String[] args) {
+        try { PerformDivision(); }
+
+        catch (Exception e) { System.out.println("there was an exception in MAIN: " + e.getMessage()); }
+    }
+}
+
+[/CODE]
+
+The above C++ and Java code illustrate how we can create defenses against potential errors or exceptions, and can leverage
+the standard exception classes.
+
+Now, let's check out another example of defensive programming with Python. Not paying attention to the nuances of Python or
+other certain programming langauges that utilize more implicit data types can lead to very bizzare behavior.
+
+
+[CODE]
+##this code example is written in Python
+
+def add_two_numbers(a, b):
+  return (a + b)
+
+if __name__ == "__main__":
+  a = input("enter addend a: ")#->2
+  b = input("enter addend b: ")#->5
+
+  sum = add_two_numbers(a, b)
+  print(f'sum of {a} and {b} = {sum}')
+  #output: "sum of 2 and 5 = 25" ????
+
+[/CODE]
+
+[CODE]
+##can you spot the difference in this code from above?
+##try it yourself and notice how even if you specify -> float
+##the output of 2 + 5 = 25 still?
+
+def add_two_numbers(a, b) -> float:
+  return (a + b)
+
+if __name__ == "__main__":
+  a = input("enter addend a: ")
+  b = input("enter addend b: ")
+
+  sum = add_two_numbers(a, b)
+  print(f'sum of {a} and {b} = {sum}')
+  #output: "sum of 2 and 5 = 25"????
+
+[/CODE]
+
+[CODE]
+##this is a simple example, but just to illustrate that
+##we have to be aware of the way some of these implicit data types are used
+##and to practice defensive programming
+
+def add_two_numbers(a, b) -> float:
+  return (a + b)
+
+if __name__ == "__main__":
+  a = float(input("enter addend a: ")) #<----- crucial type-caste
+  b = float(input("enter addend b: ")) #<----- crucial type-caste
+
+  sum = add_two_numbers(a, b)
+  print(f'sum of {a} and {b} = {sum}')
+  #output: "sum of 2.0 and 5.0 = 7.0" finally correct!!!
+
+[/CODE]
+
+You can copy+paste the three Python examples above, yourself, and try it. The reason the last example works is because
+we explicitly type-casted addends a and b as floats. Without this explicit type-caste, Python interprets them implicitly
+to be string inputs, and so add returns the concatenated string "25" and not the numerical value 7.
+
+TYPES OF ERRORS
+Now, let's get to the four main types of errors that we encounter in programming (logical, syntax, compilation, and runtime errors).
+And guess what? We've already encountered these issues in the above examples!
+
+SYNTAX ERRORS
+Syntax errors can occur in isolation, or they often accompany the other three types of errors. So, we must begin with understanding syntax errors.
+Just like we learned grammar rules in elementary school for spoken language, programming languages also have their own grammar rules, or syntax.
+A syntax error will immediately make your program fail to run because the interpreter or compiler can't even translate your code into executable
+machine instructions if it violates the language's structural grammar rules. Common syntax errors include missing or extra colons, parentheses, or brackets,
+misspelled keywords, and incorrect indentation (especially in Python). These are pretty common, especially if you tend to fat-finger your keyboard
+like I do occasionally. While the most frustrating, these are usually simple fixes once you identify them, though.
+
+Can you spot the syntax errors in the below JSON example? Comment below if you figured it out! Hint: there are four total
+
+[CODE]
+[
+  {
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "release_year": 2010,
+    "genres": [ "Sci-Fi", "Action", "Thriller" ],
+    "cast": [
+      {
+        "actor": "Leonardo DiCaprio",
+        "role": "Cobb"
+      },
+      {
+        "actor":: "Elliot Page",
+        "role": "Ariadne"
+      }
+    ]
+  },
+  {
+    "title": "The Matrix",
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "release_year": 1999,
+    "genres": [ "Sci-Fi", "Action" ],
+    "cast": [
+      {
+        "atcor": "Keanu Reeves",
+        "role": "Neo"
+      ],
+      {
+        "actor": "Laurence Fishburne",,
+        "role": "Morpheus"
+      }
+    ]
+  }
+]
+[/CODE]
+
+LOGICAL ERRORS
+While syntax errors halt interpretation or compilation instantly, logical errors are more difficult to identify
+because the program WILL actually run, but you don't get the result you expected. So what happened? Your IDE will
+give you a hint if it's a syntax error with a squiggly line or telling you it expected a "}" rather than "]," but
+the IDE can't tell you that you made a logical error because everything actually compiles or runs.
+
+[CODE]
+bool is_greater_than_ten(int n) {
+
+  if (n < 10) { return true; }
+  return false;
+}
+[/CODE]
+
+Although this example above is usually due to programmer syntax error ('<' rather than '>'), it's actually also just a
+logical error. If n = 11 is passed, this will return false and return 11 is NOT greater than 10 even though that
+makes no sense. This is because the if condition isn't satisfied, as written, so 11 < 10 can't return true and the default
+false is returned. This ONE, SINGLE incorrect character and logical error ('<') can, in fact, result in an infinite
+amount of incorrect output. Literally! Any number 9 to -inf will always evaluate as true to < 10 even though we wanna
+return is 9 greater than 10, and then any number 11 to +inf will always return false, with the logic reversed.
+
+Pro Tip: use concise, correct logic without the extra if-else conditions. Try to avoid too much nested logic if you can
+[CODE]
+bool is_greater_than_ten(int n) { return n > 10; }
+[/CODE]
+
+RUNTIME ERRORS
+These type of errors are usually the ones we don't realize until we actually run our program. The IDE won't display squiggly
+lines to point out syntax errors and it's on us to verify we have correct logic. So, we then hit run and cross our fingers
+hoping that it'll work. We get excited because everything is working out perfectly...and then all of a sudden...there's a
+!@#$%^ crash! If we carelessly didn't program defensively, we can hit a classic beginner runtime error, which is dividing
+by 0, as illustrated in the C++ and Java examples above.
+This Python example below lacks defensive programming to illustrate this runtime error mentioned
+
+[CODE]
+def a_nonworking_func(n):
+    n / 0
+  
+def a_working_func():
+    
+    iterator = 0
+    for iterator in range(10):
+        print(f'Yes!, no crash yet. Iteration: {iterator}')
+        
+if __name__ == "__main__":
+    
+    a_working_func()
+    print("Everything is working...")
+    print("Oh no, we're gonna encounter a problem at runtime now...")
+    a_nonworking_func(5)
+
+[/CODE]
+output:
+[CODE]
+Yes!, no crash yet. Iteration: 0
+Yes!, no crash yet. Iteration: 1
+Yes!, no crash yet. Iteration: 2
+Yes!, no crash yet. Iteration: 3
+Yes!, no crash yet. Iteration: 4
+Yes!, no crash yet. Iteration: 5
+Yes!, no crash yet. Iteration: 6
+Yes!, no crash yet. Iteration: 7
+Yes!, no crash yet. Iteration: 8
+Yes!, no crash yet. Iteration: 9
+Everything is working...
+Oh no, we're gonna encounter a problem at runtime now...
+Traceback (most recent call last):
+  File "/main.py", line 15, in <module>
+    a_nonworking_func(5)
+  File "/main.py", line 2, in a_nonworking_func
+    n / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+
+** Process exited - Return Code: 1 **
+
+[/CODE]
+
+COMPILATION ERRORS
+These types of errors are very similar to runtime errors except the IDE can detect them and warn you before it even
+compiles your full code. In fact, you won't even be able to compile your code at all. I will elaborate more later on
+the difference between compiling a program and running a program, but for now, just understand that the main distinction
+is that a program with a runtime error (like dividing by 0) will still compile and run a bit, but it can't fully run
+because of a runtime error and then crashes where the error is occured. A compilation error won't even begin to run because
+the order goes compile then run and obviously it can't run if it's unable to even compile.
+
+Here's an example of a compilation error in C++
+
+[CODE]
+//INCORRECT C++
+int main(){
+
+  std::string number = 5;//compile error bcuz should be = "5" if string
+  std::cout << number;
+
+  return 0;
+}
+
+
+[/CODE]
+[CODE]
+//CORRECT C++
+//
+int main(){
+
+  int number = 5;//correct bcuz 5 is indeed an int
+  std::cout << number;
+
+  return 0;
+}
+
+[/CODE]
+[CODE]
+//CORRECT C++
+//
+int main(){
+
+  std::string number = "5";//correct bcuz "5" is indeed a string literal with the double quotes
+  std::cout << number;
+
+  return 0;
+}
+
+[/CODE]
+
+And, finally, another common compilation error happens when programmers forget to include certain libraries. When this occurs,
+the compiler is searching for a reference to read and apply, but because the necessary library header or import
+statement is missing, the compiler cannot find the definition for the functions, classes, or objects you are trying
+to use, which forces it to abort the whole build process.
+
+[CODE]
+
+#include <iostream>
+//we need <cmath> library for the sqrt() function, but forgot to add it!
+
+int main() {
+
+    double n = 25.0;
+
+    double the_square_root = sqrt(n); //sqrt() fuction will ONLY work if the <cmath> library is
+                                     //used above in the header, otherwise the compiler doesn't
+                                    //know what sqrt() means or does and gives compilation error
+    
+    std::cout << "The square root is: " << the_square_root;
+
+    return 0;
+}
+
+[/CODE]
+
+
+Hopefully, once you understand what the different types of errors that can occur are, it'll be easier to debug your code
+because you can more quickly identify the problem and then resolve it. Try to program defensively, but apply this checklist
+if you encounter bugs or errors:
+Syntax Errors
+Logical Errors
+Runtime Errors
+Compilation Errors

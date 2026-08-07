@@ -1,2 +1,36 @@
-{
-}
+[
+  {
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "release_year": 2010,
+    "genres": [ "Sci-Fi", "Action", "Thriller" ],
+    "cast": [
+      {
+        "actor": "Leonardo DiCaprio",
+        "role": "Cobb"
+      },
+      {
+        "actor": "Elliot Page",
+        "role": "Ariadne"
+      }
+    ],
+    "is_highly_rated": true
+  },
+  {
+    "title": "The Matrix",
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "release_year": 1999,
+    "genres": [ "Sci-Fi", "Action" ],
+    "cast": [
+      {
+        "actor": "Keanu Reeves",
+        "role": "Neo"
+    ],
+      {
+        "actor": "Laurence Fishburne",
+        "role": "Morpheus"
+      }
+    ],
+    "is_highly_rated": true
+  }
+]

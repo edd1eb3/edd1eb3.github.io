@@ -1,0 +1,32 @@
+{
+  "tutorials": [
+    {
+      "id": 1,
+      "title": "TUTORIAL 1",
+      "date": "2026-08-11",
+      "time": "20:41",
+      "contentFile": "tutorial_01.txt",
+      "images": [
+        {
+          "src": "https://www.youtube.com/watch?v=TKe0DE2b9II",
+          "alt": "Tutorial 1",
+          "caption": "Tutorial 1"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "TUTORIAL 2",
+      "date": "2026-08-11",
+      "time": "20:42",
+      "contentFile": "tutorial_02.txt",
+      "images": [
+        {
+          "src": "https://www.youtube.com/watch?v=l3SG0tWI2YI",
+          "alt": "Tutorial 2",
+          "caption": "Tutorial 2"
+        }
+      ]
+    }
+  ]
+}

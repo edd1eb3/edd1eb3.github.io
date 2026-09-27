@@ -1,0 +1,5 @@
+I haven't announced it in my update logs, but I've been working on putting out tutorial videos over the last few weeks.
+
+You can check them out directly on YouTube or here on the website.
+
+To see my latest tutorial videos, go to <a href="/tutorials" style="color: var(--orange, #ff6f00); text-decoration: underline;">Tutorial Videos</a> 

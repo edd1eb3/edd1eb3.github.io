@@ -69,6 +69,20 @@
           "caption": "Tutorial 5"
         }
       ]
+    },
+    {
+      "id": 6,
+      "title": "Tutorial 6: Intro to Classes (C++, Java, Python)",
+      "date": "2026-09-27",
+      "time": "01:05",
+      "contentFile": "tutorial_06.txt",
+      "images": [
+        {
+          "src": "https://youtu.be/mrXylzQq6eE",
+          "alt": "Tutorial 6",
+          "caption": "Tutorial 6"
+        }
+      ]
     }
   ]
 }

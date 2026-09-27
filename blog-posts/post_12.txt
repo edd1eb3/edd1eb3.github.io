@@ -1,0 +1,36 @@
+
+I haven't blogged in almost 11 weeks! But that doesn't mean I haven't been working on the website...
+Rather than writing blog posts, I've been putting more energy into other aspects of the website, primarily my tutorial videos. You can check that out
+at <a href="/tutorials" style="color: var(--orange, #ff6f00); text-decoration: underline;">Tutorial Videos</a>
+
+One of my goals with this website is to show others the process of web development and that process, sometimes, isn't quick. But you gotta trust the process.
+This is more of a side project and I have other things going on in my life so I can't just be working on this 24/7. However, any thing for which
+you have a passion, you'll find the time to work on it.
+
+There are times when I feel discouraged because I think, "What's the point of doing this? Is anyone actually even reading any of this? I mean,
+is anyone even clicking on this??"
+
+While I hope some people view my website and learn something, I'm primarily motivated by just improving my skills and knowledge. Like the old
+adage says, "Use it or Lose it." When we're in school, we always have projects and deadlines so we're constantly practicing and enhancing our
+skills. However, there's a certain sense of enjoyment from the freedom of creating your own project and working on your own time rather than
+others' deadlines. If I have some time, I'll work on the website. If I don't have time, I mean, not a lotta people are seeing this right now
+anyway, so what's the rush? haha Maybe one day, it'll have more reach, but for now, I'm ok with where it is and it's a work in progress.
+Even if I work on it little by little, I'm still practicing skills that are helping me improve or reinforcing things I already know.
+
+I think about this video where J. Cole compares rap to sports: <a href="https://youtu.be/135bv6GhD2M?t=528" target="_blank"> J. Cole, Trusting the Process </a> He says,
+"When I really, really fell in love with rap, it was a matter of, like, sport. I started realizing the parallels between rapping, for me, and basketball.
+I gotta operate at a high skill level and the only way you're gonna operate at a high skill level is putting in the hours. You know what I mean?
+Practice. So I have to constantly come up with ways to reignite... write one verse, do a drill, make a beat. I didn't know how long it would take,
+but I knew it would take time, and it literally took me years of practice, writing, trying, shooting, sharpening the pen until I got it to a level"
+
+And I've played sports my whole life so I apply that to programming. I come up with drills for myself and sometimes, just like in sports,
+you gotta go back to the fundementals and practice the fundementals over and over. You can be the best shooter, like Steph Curry, but even
+Steph puts up hundreds of shots a day. Yeah, I may think I'm good at programming, but I started making tutorial videos and doing intro topics
+and, even though I've done some of this stuff endless times, I still find things I thought I knew well, but had to improve.
+
+And the more we do these things and practice, the better we get.
+
+Trust the process.
+
+
+

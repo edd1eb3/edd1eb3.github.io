@@ -198,6 +198,14 @@
           "src": "images/post11_images/Gemini_Generated_Image_a94nd0a94nd0a94n.png"
         }
       ]
+    },
+    {
+      "id": 12,
+      "date": "2026-09-27",
+      "time": "00:56",
+      "title": "trust the process",
+      "contentFile": "post_12.txt",
+      "tags": [ "blog", "wildwildwest" ]     
     }
   ]
 }

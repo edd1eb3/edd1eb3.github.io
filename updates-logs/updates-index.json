@@ -193,6 +193,14 @@
           "caption": "comment to engage with the digital frontier community!"
         }
       ]
+    },
+    {
+      "id": 11,
+      "date": "2026-09-27",
+      "time": "01:09",
+      "title": "been working on tutorial videos",
+      "contentFile": "update_11.txt",
+      "tags": [ "web_update", "wildwildwest", "new_feature", "tutorials" ]
     }
   ]
 }
